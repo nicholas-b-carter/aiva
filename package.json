@@ -61,7 +61,7 @@
     "portscanner": "^2.1.1",
     "randombytes": "^2.0.3",
     "require-dir": "^0.3.0",
-    "sequelize": "^3.24.3",
+    "sequelize": "^5.8.11",
     "socket.io-client": "^1.4.5",
     "winston": "^2.2.0"
   },
