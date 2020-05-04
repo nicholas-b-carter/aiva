@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - poly-socketio > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - cgkb > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - hubot-slack > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - lomath > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - sequelize > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - portscanner > async > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - ngrok > async > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - cgkb > spacy-nlp > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - hubot-slack > @slack/client > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - cgkb > spacy-nlp > poly-socketio > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
+    - cgkb > spacy-nlp > portscanner > async > lodash:
+        patched: '2020-05-04T00:07:49.944Z'
